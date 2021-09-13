@@ -1,0 +1,5 @@
+@mixin font ($f-s, $f-w) {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: $f-s;
+    font-weight: $f-w;
+}

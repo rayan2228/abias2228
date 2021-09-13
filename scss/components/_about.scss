@@ -1,0 +1,129 @@
+#about {
+    margin-top: -105px;
+
+    .about-img {
+        img {
+            width: 100%;
+        }
+    }
+
+    .about-text {
+        padding-top: 220px;
+
+        .title {
+            text-align: left;
+        }
+
+        h3 {
+            margin-left: 0px;
+        }
+
+        p {
+            @include font(20px, 400);
+            color: #3D3577;
+            text-align: justify;
+
+            span {
+                color: #3D3577;
+                font-weight: 700;
+            }
+        }
+
+        a {
+            background-color: #6121EF;
+            margin: 0px 2px;
+            margin-top: 20px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 20px;
+            transition: all linear .4s;
+
+            &:hover {
+                background-color: $text-color;
+            }
+        }
+
+    }
+
+    #scene {
+        top: 250px;
+        left: 0;
+
+        span {
+            &:nth-child(1) {
+                top: 0px !important;
+                left: 600px !important;
+            }
+
+            &:nth-child(2) {
+                top: 500px !important;
+                left: 100px !important;
+            }
+
+            &:nth-child(3) {
+                top: 400px !important;
+                left: 900px !important;
+            }
+
+            &:nth-child(4) {
+                top: 0px !important;
+                left: 0px !important;
+            }
+
+            &:nth-child(5) {
+                top: 400px !important;
+                left: -10px !important;
+            }
+
+            &:nth-child(6) {
+                top: 450px !important;
+                left: 1100px !important;
+            }
+
+            &:nth-child(7) {
+                top: 00px !important;
+                left: 1000px !important;
+            }
+
+            &:nth-child(8) {
+                top: 500px !important;
+                left: 450px !important;
+            }
+
+            &:nth-child(9) {
+                top: 100px !important;
+                left: 0px !important;
+            }
+
+            &:nth-child(10) {
+                top: 300px !important;
+                left: 650px !important;
+            }
+
+            &:nth-child(11) {
+                top: 150px !important;
+                left: 500px !important;
+            }
+
+            &:nth-child(12) {
+                top: 50px !important;
+                left: 550px !important;
+            }
+
+            &:nth-child(13) {
+                top: 150px !important;
+                left: 900px !important;
+            }
+
+            &:nth-child(14) {
+                top: 200px !important;
+                left: 100px !important;
+            }
+        }
+
+    }
+}

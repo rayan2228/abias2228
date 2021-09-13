@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+}
+
+.cd-intro {
+    max-width: 100%;
+    text-align: left;
+    margin: 0px;
+}
+
+.title {
+    text-align: center;
+
+    h2 {
+        @include font(90px, 700);
+        color: $text-color;
+        opacity: 0.1;
+        text-transform: capitalize;
+
+    }
+
+    h3 {
+        @include font(32px, 600);
+        color: $text-color;
+        margin-top: -55px;
+        margin-left: -105px;
+        text-transform: capitalize;
+    }
+}
+.preloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 102vh; 
+}

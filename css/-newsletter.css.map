@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,QAAQ;CAWpB;;AAbD,AAIQ,WAJG,CAGP,MAAM,CACF,EAAE,CAAA;EACE,WAAW,EAAE,GAAG;CACnB;;AANT,AASQ,WATG,CAQP,IAAI,CACA,MAAM,CAAA;EACF,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "../scss/components/-newsletter.scss"
+    ],
+    "names": [],
+    "file": "-newsletter.css"
+}

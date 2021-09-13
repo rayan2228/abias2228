@@ -1,0 +1,99 @@
+#service {
+    background-color: #EDF4F9;
+    margin-top: 200px;
+    padding: 80px 0px;
+
+    .title {
+        h3 {
+            margin-left: 4px;
+        }
+    }
+
+    .item {
+        margin-top: 50px;
+        text-align: center;
+        background-color: #ffff;
+        border-radius: 15px;
+        border-bottom-right-radius: 50px;
+        padding: 50px 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+        transition: all linear .4s;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -49px;
+            right: -97px;
+            width: 150px;
+            height: 165px;
+            background-color: #3F1FD1;
+            box-shadow: 1px -3px 0px 18px #9493ea;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(30deg);
+            transition: all linear .4s;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to bottom, #08bbf6, #6122ef);
+            z-index: -1;
+            opacity: 0;
+            transition: all linear .4s;
+        }
+
+        i {
+            font-size: 80px;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-image: $gradient-color;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            @include font(20px, 500);
+            margin-bottom: 20px
+        }
+
+        p {
+            @include font(16px, 400);
+            margin-bottom: 20px
+        }
+
+        a {
+            @include font (22px, 600);
+            color: #3F1FD1;
+            transition: all linear .4s;
+        }
+
+        &:hover::before {
+            opacity: 1;
+        }
+
+        &:hover::after {
+            bottom: -178px;
+            right: -78px;
+            transform: rotate(125deg);
+        }
+
+        &:hover {
+            color: #ffff;
+        }
+
+        &:hover i {
+            -webkit-text-fill-color: #ffff;
+
+        }
+
+        &:hover a {
+            color: #ffff;
+        }
+    }
+}
