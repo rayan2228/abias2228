@@ -99,7 +99,7 @@ nav ul::after {
   top: -15px;
   left: 0;
   background-color: #0E0A2D;
-  width: 960px;
+  width: 10000px;
   height: 107px;
   z-index: -1;
   border-bottom-left-radius: 50px;
@@ -298,6 +298,19 @@ nav ul li a {
 
 #counter {
   margin-top: 150px;
+  position: relative;
+}
+
+#counter::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #08bbf6;
+  top: 50%;
+  right: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 #counter .counter-main {
@@ -311,30 +324,6 @@ nav ul li a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
-}
-
-#counter .counter-main::after {
-  content: "";
-  width: 300px;
-  height: 1px;
-  position: absolute;
-  background-color: #08bbf6;
-  top: 50%;
-  left: -286px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-#counter .counter-main::before {
-  content: "";
-  width: 300px;
-  height: 1px;
-  position: absolute;
-  background-color: #08bbf6;
-  top: 50%;
-  right: -299px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 #counter .counter-main .item {
@@ -614,8 +603,8 @@ nav ul li a {
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0px;
-  position: relative;
   z-index: 2;
+  position: relative;
 }
 
 #portfolio::after {
@@ -627,6 +616,10 @@ nav ul li a {
   content: "";
   background-color: rgba(0, 0, 0, 0.555);
   z-index: -1;
+}
+
+#portfolio .positioning {
+  position: relative;
 }
 
 #portfolio .title h2 {
@@ -689,10 +682,10 @@ nav ul li a {
   z-index: 1;
 }
 
-#portfolio .positioning .details {
+#portfolio .details {
   position: absolute;
-  bottom: 392px;
-  right: 98px;
+  bottom: 312px;
+  right: -13px;
   width: 312px;
   background-color: #5F24EF;
   padding: 39px 20px;
@@ -704,22 +697,22 @@ nav ul li a {
   font-weight: 600;
 }
 
-#portfolio .positioning .details i {
+#portfolio .details i {
   padding-right: 10px;
 }
 
-#portfolio .positioning .details a {
+#portfolio .details a {
   color: #e9e0ff;
   text-decoration: underline !important;
   -webkit-transition: all linear .4s;
   transition: all linear .4s;
 }
 
-#portfolio .positioning .details a:hover {
+#portfolio .details a:hover {
   color: #fff;
 }
 
-#portfolio .positioning .details .see-details-btn {
+#portfolio .details .see-details-btn {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -1340,7 +1333,7 @@ nav ul li a {
 #testi-skill .left-part .testimonial-slider .slick-list {
   height: 335px;
   width: 552px;
-  margin-left: 50px;
+  margin: 0 auto;
   padding: 50px;
 }
 
@@ -1421,7 +1414,7 @@ nav ul li a {
 
 #testi-skill .left-part .client-slider {
   width: 75%;
-  margin-left: 100px;
+  margin: 0 auto;
   margin-top: -30px;
   padding-bottom: 80px;
 }

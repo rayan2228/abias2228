@@ -102,6 +102,9 @@
   #service {
     margin-top: 43px;
   }
+  #portfolio .portfolio-slider .item .text {
+    bottom: 11px;
+  }
   #portfolio .portfolio-slider .item .text h2 a {
     font-size: 28px;
   }
@@ -109,17 +112,16 @@
     font-size: 16px;
   }
   #portfolio .positioning .details {
-    bottom: 481px;
+    bottom: 367px;
     right: 16px;
     width: 290px;
     padding: 55px 20px;
-    color: #fff;
     border-bottom-right-radius: 50px;
     font-size: 20px;
     padding-bottom: 19px;
   }
   #portfolio .portfolio-small-slider {
-    margin-top: 300px;
+    margin-top: 266px;
   }
   #workflow .main::after {
     display: none;
@@ -159,14 +161,12 @@
   }
   #testi-skill .left-part .testimonial-slider .slick-list {
     height: 500px;
-    margin-left: 10px;
     width: 350px;
   }
   #testi-skill .left-part .testimonial-slider .slick-list .item {
     height: 400px;
   }
   #testi-skill .left-part .client-slider {
-    margin-left: 35px;
     width: 88%;
   }
   #testi-skill .left-part .client-slider .prev {
@@ -310,15 +310,18 @@
   #service {
     margin-top: 43px;
   }
+  #portfolio .portfolio-slider .item .text {
+    bottom: 21px;
+  }
   #portfolio .portfolio-slider .item .text h2 a {
     font-size: 28px;
   }
   #portfolio .portfolio-slider .item .text p {
     font-size: 16px;
   }
-  #portfolio .positioning .details {
-    bottom: 506px;
-    right: 31px;
+   #portfolio .positioning .details {
+    bottom: 342px;
+    right: 12px;
     width: 514px;
     padding: 55px 20px;
     border-bottom-right-radius: 50px;
@@ -326,8 +329,8 @@
     padding-bottom: 19px;
   }
   #portfolio .portfolio-small-slider {
-    margin-top: 300px;
-  }
+    margin-top: 209px;
+  } 
   #portfolio .portfolio-small-slider .prev {
     color: #fff;
     width: 40px;
@@ -370,11 +373,7 @@
     left: -531px;
     transform: rotate(90deg);
   }
-  #testi-skill .left-part .testimonial-slider .slick-list {
-    margin-left: 22px;
-  }
   #testi-skill .left-part .client-slider {
-    margin-left: 60px;
     width: 82%;
   }
   #testi-skill #scene-2 span:nth-child(14) {
@@ -459,9 +458,7 @@
   #service .item::after {
     right: -118px;
   }
-  #portfolio .positioning .details {
-    right: 6px;
-  }
+
   #portfolio .portfolio-small-slider .prev {
     color: #fff;
     width: 40px;
@@ -484,7 +481,7 @@
   #workflow .main .work-line {
     width: 718px;
   }
-  #workflow .main .work-complete{
+  #workflow .main .work-complete {
     width: 80px !important;
   }
   #workflow .main .work-line .circle1 {
@@ -520,9 +517,6 @@
   #workflow .main .work-line .work-complete-width-3 {
     width: 718px !important;
   }
-  #testi-skill .left-part .testimonial-slider .slick-list {
-    margin-left: 98px;
-  }
   #testi-skill .right-part .details {
     width: 682px;
   }
@@ -549,6 +543,9 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  nav .ms-auto {
+    margin-left: 44px !important;
+  }
   #banner .text {
     padding-top: 182px;
   }
@@ -558,8 +555,8 @@
   #about .about-text p {
     margin-top: 20px;
   }
-  #portfolio .positioning .details {
-    right: 6px;
+  #portfolio .details {
+   right: -31px;
   }
   #portfolio .portfolio-small-slider .prev {
     color: #fff;
@@ -619,23 +616,21 @@
   #workflow .main .work-line .work-complete-width-3 {
     width: 943px !important;
   }
-  #testi-skill .row{
+  #testi-skill .row {
     flex-direction: column;
   }
-  #testi-skill .left-part{
+  #testi-skill .left-part {
     width: 100%;
   }
-  #testi-skill .right-part{
+  #testi-skill .right-part {
     width: 100%;
   }
   #testi-skill .left-part .testimonial-slider .slick-list {
-    margin-left: 26px;
     width: 900px;
     padding-left: 100px;
   }
   #testi-skill .left-part .client-slider {
     width: 70%;
-    margin-left: 190px;
   }
   #testi-skill .left-part .client-slider .next {
     right: 56px;
@@ -666,12 +661,8 @@
   }
 }
 @media (min-width: 1200px) and (max-width: 1300px) {
-  #banner .right-img {
-    top: -71px;
-    right: -51px;
-  }
-  #portfolio .positioning .details {
-    right: 6px;
+  nav .ms-auto {
+    margin-left: 44px !important;
   }
   #portfolio .portfolio-small-slider .prev {
     color: #fff;
@@ -692,12 +683,6 @@
   #workflow .main::after {
     width: 1152px;
   }
-  #testi-skill .left-part .testimonial-slider .slick-list {
-    margin-left: 17px;
-  }
-  #testi-skill .left-part .client-slider {
-    margin-left: 77px;
-  }
 }
 @media (min-width: 1400px) {
   nav .ms-auto {
@@ -709,8 +694,8 @@
   #service .item {
     width: 91%;
   }
-  #portfolio .positioning .details {
-    right: 70px;
+  #portfolio .details {
+    right: 21px;
   }
   #workflow .main .work-line .circle1 {
     left: 156px;
@@ -736,16 +721,16 @@
   #workflow .main .work-line .circle8 {
     left: 1128px;
   }
-  .work-complete-width-1{
+  .work-complete-width-1 {
     width: 480px !important;
-}
-.work-complete-width-2{
+  }
+  .work-complete-width-2 {
     width: 805px !important;
-}
-.work-complete-width-3{
+  }
+  .work-complete-width-3 {
     width: 1230px !important ;
-}
-#newsletter p {
-	margin-left: 288px;
-}
+  }
+  #newsletter p {
+    margin-left: 288px;
+  }
 }
